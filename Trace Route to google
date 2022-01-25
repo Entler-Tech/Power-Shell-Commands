@@ -1,1 +1,1 @@
-Test-NetConnection -Traceroute www.google.com
+Test-NetConnection -Traceroute 8.8.8.8
