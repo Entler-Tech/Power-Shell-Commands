@@ -1,1 +1,1 @@
-Get-ADUser -Properties whenCreated | Select Name,whenCreated
+Get-ADUser * -Properties whenCreated | Select Name,whenCreated
