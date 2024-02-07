@@ -1,0 +1,2 @@
+Set-Service -Name "AppReadiness" -Status stopped -StartupType disabled
+  
