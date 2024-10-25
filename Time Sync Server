@@ -1,0 +1,11 @@
+net stop w32time
+w32tm /unregister
+w32tm /register
+net start w32time
+
+
+
+zutil /s “Eastern Standard Time”
+
+
+w32tm /config /manualpeerlist:“0x8 time.windows.com 180,0x8 time.nist.gov 72” /syncfromflags:manual /reliable:yes /update
